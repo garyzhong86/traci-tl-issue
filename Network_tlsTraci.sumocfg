@@ -1,0 +1,31 @@
+<configuration>
+  <input>
+    <net-file value="Network_tlsTraci.net.xml"/>
+    <route-files value="Network_tlsTraci.rou.xml"/>
+  </input>
+    <time>
+      <step-length value= "0.1" />
+      <end value = "200"/>
+   </time>
+   <random-number>
+      <random value="false" />
+      <seed value="23" />     
+   </random-number>
+   <Processing>
+      <lateral-resolution value = "0.1"/>
+   </Processing>
+   <!-- <report>
+        <log value = "simLog"/>
+   </report>    -->
+   <output>
+      <!-- <full-output value="output_fullOutput.xml" /> -->
+      <!-- <netstate-dump value="output_trajectory" />
+      <amitran-output value="output_anitran" /> 
+      <lanechange-output value="output_laneChange" />
+      <summary-output  value="output_summary" />
+      <link-output value = "output_link" />  -->
+      <!-- <vtk-output value="parkSim_vtk" /> -->
+      <!-- <output-prefix value="TIME" /> -->
+      <!-- <kml-output value = "kml"/> -->
+   </output>   
+</configuration>
